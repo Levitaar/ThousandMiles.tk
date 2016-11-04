@@ -95,21 +95,33 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    #background {
+        
+    text-align: center;
+    
+    }
+    
+    .light {
+        
+        background-color: #2A358F;
+        
+    }
+    
+    .dark {
+        
+        background-color: #0A0C21;
+        
+    }
+    
+    #img {
+    
+    max-width: 50%;
+    height: auto;
+    width: auto\9;
+    display: inline-block;
+    
+    }
+    
 
 /* ==========================================================================
    Helper classes
