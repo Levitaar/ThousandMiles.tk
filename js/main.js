@@ -12,6 +12,7 @@ $("#switch").click(function () {
         lit = false;
         count = 0;
         
+        
     }
     
     
