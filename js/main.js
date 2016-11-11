@@ -8,8 +8,9 @@ var count = 1;
 var timer = 3/8;
 
 CandleValue = Cookies.get('candleLeft');
+CandleValue = Cookies.get('used');
 
-if(used == false) {
+if(used != true) {
     
     CandleValue = 70;
     
