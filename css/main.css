@@ -97,8 +97,14 @@ textarea {
 
     #background {
         
-    text-align: center;
+        border: 5px;
+        font-size: 20px;
+    }
     
+    #center {
+        
+        text-align: center;
+        
     }
     
     .light {
@@ -115,11 +121,47 @@ textarea {
     
     #img {
     
-    max-width: 50%;
-    height: auto;
-    width: auto\9;
-    display: inline-block;
+        max-width: 20%;
+        height: auto;
+        width: auto\9;
+        display: inline-block;
+       
     
+    }
+    
+    #textDark {
+     
+        max-width: 40%;
+        font-size: 20px;
+
+        
+    }
+    
+    #text {
+        
+        
+    }
+    
+    #switch {
+        
+        max-width: 5%;
+        height: auto;
+        width: auto\9;
+        display: inline-block;
+        
+    }
+    
+    .visible {
+        
+        visibility: visible;
+        color: white;
+        
+    }
+    
+    .notVisible {
+        
+         visibility: hidden;   
+        
     }
     
 
