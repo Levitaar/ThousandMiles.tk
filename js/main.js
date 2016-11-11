@@ -218,6 +218,10 @@ function Candle () {
     
     if(CandleValue == 0) {
         $("#img").attr("src","img/CandleOffH.png");
+        
+    }
+    
+    if(CandleValue < 70) {
         used = true;
         Cookies.set('used', used);
         
