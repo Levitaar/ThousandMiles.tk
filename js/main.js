@@ -9,6 +9,12 @@ var timer = 3/8;
 
 CandleValue = Cookies.get('candleLeft');
 
+if(!used) {
+    
+    CandleValue = 70;
+    
+}
+
 $("#switch").click(function () {
     
     if(lit) {
@@ -212,6 +218,8 @@ function Candle () {
     
     if(CandleValue == 0) {
         $("#img").attr("src","img/CandleOffH.png");
+        used = true;
+        Cookies.set('used', used);
         
     }
 }
