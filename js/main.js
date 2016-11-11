@@ -1,13 +1,11 @@
 var CandleValue = 70;
-var CandleState;
+var used = false;
 var CandleImgOff;
 var CandleImgOnA;
 var CandleImgOnB;
 var lit = false;
 var count = 1;
 var timer = 3/8;
-
-CandleCookie();
 
 CandleValue = Cookies.get('candleLeft');
 
@@ -22,6 +20,8 @@ $("#switch").click(function () {
         
         lit = true;
         $("#switch").attr("src","img/Switch0ff.png");
+        used = true;
+        Cookies.set('used', used);
         
     }
     
