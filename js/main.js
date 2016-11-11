@@ -7,7 +7,9 @@ var lit = false;
 var count = 1;
 var timer = 3/8;
 
-//CandleValue = Cookies.get('candleLeft');
+CandleCookie();
+
+CandleValue = Cookies.get('candleLeft');
 
 $("#switch").click(function () {
     
