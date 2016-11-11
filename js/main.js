@@ -1,5 +1,5 @@
 var CandleValue = 70;
-var used = false;
+var used = 2;
 var CandleImgOff;
 var CandleImgOnA;
 var CandleImgOnB;
@@ -10,7 +10,7 @@ var timer = 3/8;
 CandleValue = Cookies.get('candleLeft');
 CandleValue = Cookies.get('used');
 
-if(used != true) {
+if(used != 3) {
     
     CandleValue = 70;
     
@@ -223,7 +223,7 @@ function Candle () {
     }
     
     if(CandleValue < 70) {
-        used = true;
+        used = 3;
         Cookies.set('used', used);
         
     }
